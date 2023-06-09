@@ -1,0 +1,7 @@
+macos_instance:
+  image: ghcr.io/cirruslabs/macos-ventura-xcode:14.3
+task:
+  script: |
+    make info
+    make build
+    make test
